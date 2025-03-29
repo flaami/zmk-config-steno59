@@ -1,0 +1,6 @@
+if SHIELD_STENO59
+
+config ZMK_KEYBOARD_NAME
+    default "steno59"
+
+endif
