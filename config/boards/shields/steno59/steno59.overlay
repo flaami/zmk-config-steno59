@@ -17,18 +17,18 @@
                     <&pro-micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&pro-micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
-        col-gpios = <&pro-micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&pro-micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+        col-gpios = <&pro-micro 16 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 10 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 9 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 8 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 7 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 6 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 5 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 4 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 3 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 2 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 0 GPIO_ACTIVE_HIGH>,
+                    <&pro-micro 1 GPIO_ACTIVE_HIGH>;
     };
 
     default_transform: matrix_transform {
