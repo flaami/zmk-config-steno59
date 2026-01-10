@@ -47,7 +47,7 @@
                 &trans    &trans       &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
                 &trans    &trans       &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &kp BSLH
                 &trans    &trans       &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans   &trans
-                &trans    &kp KC_NUBS  &trans   &trans   &trans      &trans         &trans   &trans   &trans   &trans   &trans
+                &trans    &kp NUBS  &trans   &trans   &trans      &trans         &trans   &trans   &trans   &trans   &trans
             >;
         };
 
